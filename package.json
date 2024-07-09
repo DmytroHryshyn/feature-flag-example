@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react-hooks": "8.0.1",
+    "react-router": "3.2.6",
+    "@testing-library/react": "12.1.5",
     "@devcycle/react-client-sdk": "^1.23.1",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
