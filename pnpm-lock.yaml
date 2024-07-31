@@ -65,6 +65,9 @@ importers:
       typescript:
         specifier: ^4.4.2
         version: 4.9.5
+      use-subscription:
+        specifier: 1.1.2
+        version: 1.1.2(react@18.3.1)
       web-vitals:
         specifier: ^2.1.0
         version: 2.1.4
@@ -5359,6 +5362,11 @@ packages:
 
   url-parse@1.5.10:
     resolution: {integrity: sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==}
+
+  use-subscription@1.1.2:
+    resolution: {integrity: sha512-InGPcqgiSQ3DeZ1bAOhymppJ5qDyt/p7y0l4sg979xaI08kSK8zeKQg8RjZNe+X5sH9/O+36tEIpwzsIWy5TUA==}
+    peerDependencies:
+      react: ^16.8.0
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -12066,6 +12074,10 @@ snapshots:
     dependencies:
       querystringify: 2.2.0
       requires-port: 1.0.0
+
+  use-subscription@1.1.2(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   util-deprecate@1.0.2: {}
 
