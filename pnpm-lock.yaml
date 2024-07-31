@@ -38,6 +38,9 @@ importers:
       history:
         specifier: 1.2.2
         version: 1.2.2
+      lodash:
+        specifier: 4.17.9
+        version: 4.17.9
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -3644,6 +3647,9 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  lodash@4.17.9:
+    resolution: {integrity: sha512-vuRLquvot5sKUldMBumG0YqLvX6m/RGBBOmqb3CWR/MC/QvvD1cTH1fOqxz2FJAQeoExeUdX5Gu9vP2EP6ik+Q==}
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -10173,6 +10179,8 @@ snapshots:
 
   lodash@4.17.21: {}
 
+  lodash@4.17.9: {}
+
   loose-envify@1.4.0:
     dependencies:
       js-tokens: 4.0.0
@@ -11090,7 +11098,7 @@ snapshots:
     dependencies:
       hoist-non-react-statics: 1.2.0
       invariant: 2.2.4
-      lodash: 4.17.21
+      lodash: 4.17.9
       loose-envify: 1.4.0
       react: 18.3.1
       redux: 3.7.2
@@ -12195,7 +12203,7 @@ snapshots:
 
   whatwg-url@8.7.0:
     dependencies:
-      lodash: 4.17.21
+      lodash: 4.17.9
       tr46: 2.1.0
       webidl-conversions: 6.1.0
 
